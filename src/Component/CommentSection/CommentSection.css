@@ -1,0 +1,124 @@
+/* CommentSection.css */
+
+.comment-section {
+  font-family: Arial, sans-serif;
+  margin-top: 20px;
+}
+
+.comment {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.user-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.comment-content {
+  flex: 1;
+}
+
+.comment-author {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.comment-actions {
+  margin-top: 5px;
+}
+
+.comment-btn {
+  padding: 5px;
+  margin-right: 5px;
+  border: none;
+  background-color: #f0f0f0;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.comment-btn:hover {
+  background-color: #e0e0e0;
+}
+
+.add-comment {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.add-comment textarea {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-right: 10px;
+  resize: none;
+}
+
+.comment-submit-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.comment-submit-btn:hover {
+  background-color: #0056b3;
+}
+
+.notes-section {
+  margin-top: 30px;
+}
+
+.notes-section h3 {
+  margin-bottom: 10px;
+}
+
+.notes-section hr {
+  margin-bottom: 10px;
+}
+
+.note {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
+
+.note-actions {
+  display: flex;
+  align-items: center;
+}
+
+.note-actions span {
+  margin-right: 10px;
+  font-size: 12px;
+  color: #999;
+}
+
+.delete-note-btn {
+  background-color: red;
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 12px;
+  transition: background-color 0.3s ease;
+}
+
+.delete-note-btn:hover {
+  background-color: darkred;
+}
