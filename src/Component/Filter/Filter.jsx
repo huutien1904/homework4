@@ -1,7 +1,3 @@
-import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
-import { faList } from "@fortawesome/free-solid-svg-icons";
 import "../style.css";
 export default function Filter() {
   return (
@@ -9,7 +5,6 @@ export default function Filter() {
       <div className="favorite-section">
         <h1 className="section-title">Mục yêu thích của bạn</h1>
         <div className="search-bar">
-          <FontAwesomeIcon icon={faMagnifyingGlass} className="search-icon" />
           <input type="text" placeholder="Tìm kiếm" className="search-input" />
         </div>
 
@@ -33,8 +28,6 @@ export default function Filter() {
             <option>Mới nhất</option>
             <option>Cũ nhất</option>
           </select>
-
-          <FontAwesomeIcon icon={faList} />
         </div>
       </div>
     </div>
