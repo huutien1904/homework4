@@ -5,7 +5,6 @@ import CommentSection from "../CommentSection/CommentSection";
 import "./Modal.css";
 function Modal(props) {
   const { isOpenModal, setIsOpenModal, productDetail } = props;
-  console.log(productDetail);
 
   const openModal = () => {};
   const closeModal = () => {
